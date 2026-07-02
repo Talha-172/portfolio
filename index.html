@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">Talha<span>.Dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I am <span class="highlight">Muhammad Talha</span></h1>
+                    <h2>Engineering Student & Web Developer</h2>
+                    <p>Passionate about building highly optimized web applications, refining intuitive UI/UX design components, and engineering robust software solutions using clean code standards.</p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=400&h=400" 
+                         alt="Professional headshot of Muhammad Talha, an engineering student and web developer" 
+                         class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=400&h=250" 
+                             alt="Interface mockup of a Library Management System built with C-sharp programming language" />
+                        <div class="project-info">
+                            <h3>Library Management System</h3>
+                            <p>An optimized application tracking active book records, processing borrows under a strict limit constraint ruleset.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&h=250" 
+                             alt="Abstract visual layout showing automated Figma web templates with custom Auto Layout architecture" />
+                        <div class="project-info">
+                            <h3>UI/UX & Webflow Prototypes</h3>
+                            <p>Curated pixel-perfect web layouts engineered using Figma student wireframes and modular interface structures.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="form-container">
+                    <form id="portfolio-contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="user-name">Full Name</label>
+                            <input type="text" id="user-name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email">Email Address</label>
+                            <input type="email" id="user-email" name="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-message">Project Description</label>
+                            <textarea id="user-message" name="message" rows="5" required placeholder="How can we collaborate?"></textarea>
+                        </div>
+                        <button type="submit" class="btn form-submit-btn">Send Secure Message</button>
+                    </form>
+                    <div id="form-feedback-message" role="alert" aria-live="polite"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Talha. Engineered with modern HTML, CSS, and JavaScript standards.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
